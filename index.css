@@ -77,16 +77,22 @@ li {
 
 .icons {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-bottom: 6%;
+}
+
+.icons i {
+    font-size: 3em;
 }
 
 .icon-text {
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 3%;
-    color: rgb(238, 237, 237);
+    margin: 3% 0% 3% 7%;
+    justify-content: space-evenly;
+    color: #eeeded;
     opacity: 0.9;
+    font-size: 18px;
+    margin-left: 7%;
 }
 
 .container-two header h1 {
@@ -94,6 +100,7 @@ li {
     margin-top: 12%;
     font-size: 45px;
     font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
 }
 
 .container-two {
@@ -216,7 +223,7 @@ form button {
         margin-top: 7%;
     }
     input {
-        width: 630px;
+        width: 620px;
         font-size: 40px;
         border-radius: 15px;
     }
@@ -224,7 +231,7 @@ form button {
         font-size: 38px;
     }
     form button {
-        width: 630px;
+        width: 620px;
         margin-bottom: 30px;
         font-size: 40px;
     }
@@ -236,10 +243,11 @@ form button {
         width: 100%;
         margin: 0;
         padding: 0;
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     }
     .wrapper {
         flex-direction: column;
+        flex-wrap: wrap;
     }
     .container-one {
         width: 100%;
@@ -269,7 +277,7 @@ form button {
         margin-top: 7%;
     }
     input {
-        width: 920px;
+        width: 750px;
         font-size: 40px;
         border-radius: 15px;
     }
@@ -277,7 +285,7 @@ form button {
         font-size: 38px;
     }
     form button {
-        width: 920px;
+        width: 750px;
         margin-bottom: 30px;
         font-size: 40px;
     }
