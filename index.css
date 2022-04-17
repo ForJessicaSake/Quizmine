@@ -65,14 +65,15 @@ li {
     margin-bottom: 15%;
     border-radius: 25px;
     align-self: center;
-    width: 180px;
+    width: 200px;
     margin-top: 7%;
-    padding: 12px;
+    padding: 15px;
     background-color: #00abdf;
     color: white;
     font-weight: bold;
     opacity: 0.8;
     border: 0.1px solid rgb(238, 237, 237);
+    font-size: 17.5px;
 }
 
 .icons {
